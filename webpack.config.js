@@ -11,9 +11,9 @@ const htmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
 
     // 打包的入口文件
-    entry: './src/app.js',
+    entry: './src/js/app.js',
 
-    // 打包后文件输出
+    // 打包后文件输出 要绝对路径
     output: {
         path: path.resolve(__dirname, './dist'),
         filename: 'buld.js'
